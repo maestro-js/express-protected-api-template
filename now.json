@@ -8,7 +8,9 @@
       "config": {
         "maxLambdaSize": "<%= now_max_lambda_size %>"
       }
-    }
+    },
+    { "src": "index.html", "use": "@now/static" },
+    { "src": "robots.txt", "use": "@now/static" }
   ],
   "routes": [
     { "src": "/", "dest": "/index.html" },
