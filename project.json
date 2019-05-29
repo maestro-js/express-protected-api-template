@@ -1,0 +1,8 @@
+{
+  "name": "<%= name %>",
+  "alias": "<%= alias %>",
+  "domain": "<%= domain %>",
+  "subdomain": "<%= subdomain %>",
+  "github_user": "<%= github_user %>",
+  "description": "<%= description %>"
+}
