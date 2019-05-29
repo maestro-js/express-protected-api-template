@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "alias": ["<%= alias %>"],
   "name": "<%= name %>",
   "builds": [
     {
