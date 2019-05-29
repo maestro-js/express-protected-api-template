@@ -11,6 +11,8 @@
     }
   ],
   "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/robots.txt", "dest": "/robots.txt" },
     { "src": "/login", "dest": "/login/index.js" },
     { "src": "/api", "dest": "/api/index.js" }
   ]
